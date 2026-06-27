@@ -10,6 +10,7 @@ const en = {
   },
   langNames: { en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' },
   whatsapp: { ariaLabel: 'Chat on WhatsApp', title: 'Chat on WhatsApp' },
+  telegram: { ariaLabel: 'Chat on Telegram', title: 'Chat on Telegram' },
   hero: {
     badge: 'ibo player pro',
     heading1: 'A cleaner media',
@@ -294,6 +295,7 @@ const fr: typeof en = {
   nav: { home: 'Accueil', managePlaylists: 'Gérer les playlists', activate: 'Activer', faq: 'FAQ', contact: 'Contact' },
   langNames: { en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' },
   whatsapp: { ariaLabel: 'Discuter sur WhatsApp', title: 'Discuter sur WhatsApp' },
+  telegram: { ariaLabel: 'Discuter sur Telegram', title: 'Discuter sur Telegram' },
   hero: {
     badge: 'ibo player pro',
     heading1: 'Un workflow multimédia',
@@ -578,6 +580,7 @@ const de: typeof en = {
   nav: { home: 'Startseite', managePlaylists: 'Playlists verwalten', activate: 'Aktivieren', faq: 'FAQ', contact: 'Kontakt' },
   langNames: { en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' },
   whatsapp: { ariaLabel: 'WhatsApp-Chat starten', title: 'WhatsApp-Chat starten' },
+  telegram: { ariaLabel: 'Telegram-Chat starten', title: 'Telegram-Chat starten' },
   hero: {
     badge: 'ibo player pro',
     heading1: 'Ein saubererer',
@@ -862,6 +865,7 @@ const es: typeof en = {
   nav: { home: 'Inicio', managePlaylists: 'Gestionar listas', activate: 'Activar', faq: 'FAQ', contact: 'Contacto' },
   langNames: { en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' },
   whatsapp: { ariaLabel: 'Chatear en WhatsApp', title: 'Chatear en WhatsApp' },
+  telegram: { ariaLabel: 'Chatear en Telegram', title: 'Chatear en Telegram' },
   hero: {
     badge: 'ibo player pro',
     heading1: 'Un flujo de trabajo',
