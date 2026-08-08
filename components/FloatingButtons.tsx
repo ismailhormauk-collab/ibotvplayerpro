@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const WA_URL = "https://wa.me/447882758472";
+const WA_URL = "https://wa.me/447576599069";
 const TG_URL = "https://t.me/pulseiptv4k";
 
 function ChatIcon() {

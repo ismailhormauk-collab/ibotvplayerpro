@@ -7,7 +7,7 @@ import {
 import PosterBackground from "@/components/PosterBackground";
 import { useLanguage } from "@/lib/i18n/context";
 
-const WHATSAPP = "447882758472";
+const WHATSAPP = "447576599069";
 const EMAIL    = "contact@ibotvplayerpro.com";
 
 interface Fields { fullName: string; email: string; subject: string; message: string }
@@ -164,7 +164,7 @@ export default function ContactPage() {
                 <div>
                   <p className="text-gray-500 text-xs uppercase tracking-widest font-bold mb-1">{c.whatsappLabel}</p>
                   <p className="text-white text-sm font-medium group-hover:text-[#E50914] transition-colors duration-200">
-                    +44 7882 758472
+                    +44 7576 599069
                   </p>
                   <p className="text-gray-600 text-xs mt-0.5">{c.tapToOpenWA}</p>
                 </div>
@@ -192,7 +192,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-gray-500 text-xs uppercase tracking-widest font-bold mb-1">{c.phoneLabel}</p>
-                  <p className="text-white text-sm font-medium">+44 7882 758472</p>
+                  <p className="text-white text-sm font-medium">+44 7576 599069</p>
                   <p className="text-gray-600 text-xs mt-0.5">{c.available247}</p>
                 </div>
               </div>

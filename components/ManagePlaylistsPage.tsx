@@ -4,7 +4,7 @@ import { Eye, EyeOff, CircleAlert, CircleCheck, List, ShieldCheck, Globe } from 
 import PosterBackground from "@/components/PosterBackground";
 import { useLanguage } from "@/lib/i18n/context";
 
-const WHATSAPP_NUMBER = "447882758472";
+const WHATSAPP_NUMBER = "447576599069";
 
 type FormState = "idle" | "success";
 

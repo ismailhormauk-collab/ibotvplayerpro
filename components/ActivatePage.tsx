@@ -8,7 +8,7 @@ import {
 import PosterBackground from "@/components/PosterBackground";
 import { useLanguage } from "@/lib/i18n/context";
 
-const WHATSAPP = "447882758472";
+const WHATSAPP = "447576599069";
 
 interface Fields { fullName: string; email: string; deviceType: string; macAddress: string; activationCode: string }
 interface Errors { fullName?: string; email?: string; deviceType?: string; macAddress?: string; activationCode?: string }
