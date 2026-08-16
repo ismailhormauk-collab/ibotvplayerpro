@@ -6,8 +6,9 @@ import {
 } from "lucide-react";
 import PosterBackground from "@/components/PosterBackground";
 import { useLanguage } from "@/lib/i18n/context";
+import { WHATSAPP_NUMBER } from "@/lib/whatsapp";
 
-const WHATSAPP = "447576599069";
+const WHATSAPP = WHATSAPP_NUMBER;
 const EMAIL    = "contact@ibotvplayerpro.com";
 
 interface Fields { fullName: string; email: string; subject: string; message: string }

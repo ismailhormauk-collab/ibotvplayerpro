@@ -11,7 +11,7 @@ interface Props {
 
 /**
  * Full-viewport fixed cinematic poster-grid background.
- * Shared by Activate, FAQ, Contact, Manage Playlists, and Policy pages.
+ * Shared by FAQ, Contact, and Policy pages.
  * Rendered server-side — zero client JS.
  */
 export default function PosterBackground({

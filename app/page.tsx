@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 const AppPreviewSection  = dynamic(() => import("@/components/sections/AppPreviewSection"));
 const CoreFeaturesSection = dynamic(() => import("@/components/sections/CoreFeaturesSection"));
 const HowItWorksSection  = dynamic(() => import("@/components/sections/HowItWorksSection"));
+const PricingSection     = dynamic(() => import("@/components/sections/PricingSection"));
 const AboutSection       = dynamic(() => import("@/components/sections/AboutSection"));
 const PlatformsSection   = dynamic(() => import("@/components/sections/PlatformsSection"));
 const FaqSection         = dynamic(() => import("@/components/sections/FaqSection"));
@@ -19,6 +20,7 @@ export default function Home() {
       <AppPreviewSection />
       <CoreFeaturesSection />
       <HowItWorksSection />
+      <PricingSection />
       <AboutSection />
       <PlatformsSection />
       <FaqSection />

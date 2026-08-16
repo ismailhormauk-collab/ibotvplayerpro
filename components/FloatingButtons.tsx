@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { WHATSAPP_URL } from "@/lib/whatsapp";
 
-const WA_URL = "https://wa.me/447576599069";
+const WA_URL = WHATSAPP_URL;
 const TG_URL = "https://t.me/pulseiptv4k";
 
 function ChatIcon() {

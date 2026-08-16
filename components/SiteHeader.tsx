@@ -12,11 +12,10 @@ export default function SiteHeader() {
   const [menuOpen,  setMenuOpen]  = useState(false);
 
   const NAV_LINKS = [
-    { label: t.nav.home,            href: "/"                 },
-    { label: t.nav.managePlaylists, href: "/manage-playlists" },
-    { label: t.nav.activate,        href: "/activate"         },
-    { label: t.nav.faq,             href: "/faq"              },
-    { label: t.nav.contact,         href: "/contact"          },
+    { label: t.nav.home,    href: "/"          },
+    { label: t.nav.faq,     href: "/faq"       },
+    { label: t.nav.contact, href: "/contact"   },
+    { label: t.nav.pricing, href: "/#pricing"  },
   ];
 
   useEffect(() => {

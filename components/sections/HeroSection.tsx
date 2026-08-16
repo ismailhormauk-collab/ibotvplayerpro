@@ -1,5 +1,5 @@
 "use client";
-import { Play, Settings } from "lucide-react";
+import { Tag, MessageCircle } from "lucide-react";
 import { POSTER_GRADIENTS } from "@/lib/poster-gradients";
 import { useLanguage } from "@/lib/i18n/context";
 
@@ -58,18 +58,18 @@ export default function HeroSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href="/manage-playlists"
+                href="/#pricing"
                 className="flex items-center justify-center gap-2 bg-[#E50914] hover:bg-[#CC0812] text-white font-semibold px-6 py-3 rounded-xl transition-colors duration-200"
               >
-                <Settings size={18} />
-                {h.btn1}
+                <Tag size={18} />
+                {t.nav.pricing}
               </a>
               <a
-                href="/activate"
+                href="/contact"
                 className="flex items-center justify-center gap-2 border border-white/20 hover:border-white/40 hover:bg-white/5 text-white font-semibold px-6 py-3 rounded-xl transition-all duration-200"
               >
-                <Play size={18} />
-                {h.btn2}
+                <MessageCircle size={18} />
+                {t.nav.contact}
               </a>
             </div>
           </div>
