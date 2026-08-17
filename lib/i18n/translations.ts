@@ -6,6 +6,7 @@ const en = {
     faq: 'FAQ',
     contact: 'Contact',
     pricing: 'Pricing',
+    blog: 'Blog',
   },
   langNames: { en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' },
   whatsapp: { ariaLabel: 'Chat on WhatsApp', title: 'Chat on WhatsApp' },
@@ -109,6 +110,7 @@ const en = {
     supportHeading: 'Support',
     privacyPolicy: 'Privacy Policy',
     termsOfService: 'Terms of Service',
+    blog: 'Blog',
     faq: 'FAQ',
     contactUs: 'Contact us',
     copyright: '© 2026 ibo player pro. All rights reserved.',
@@ -223,7 +225,7 @@ const en = {
 
 // ─── French ───────────────────────────────────────────────────────────────────
 const fr: typeof en = {
-  nav: { home: 'Accueil', faq: 'FAQ', contact: 'Contact', pricing: 'Tarifs' },
+  nav: { home: 'Accueil', faq: 'FAQ', contact: 'Contact', pricing: 'Tarifs', blog: 'Blog' },
   langNames: { en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' },
   whatsapp: { ariaLabel: 'Discuter sur WhatsApp', title: 'Discuter sur WhatsApp' },
   telegram: { ariaLabel: 'Discuter sur Telegram', title: 'Discuter sur Telegram' },
@@ -326,6 +328,7 @@ const fr: typeof en = {
     supportHeading: 'Assistance',
     privacyPolicy: 'Politique de confidentialité',
     termsOfService: "Conditions d'utilisation",
+    blog: 'Blog',
     faq: 'FAQ',
     contactUs: 'Nous contacter',
     copyright: '© 2026 ibo player pro. Tous droits réservés.',
@@ -440,7 +443,7 @@ const fr: typeof en = {
 
 // ─── German ───────────────────────────────────────────────────────────────────
 const de: typeof en = {
-  nav: { home: 'Startseite', faq: 'FAQ', contact: 'Kontakt', pricing: 'Preise' },
+  nav: { home: 'Startseite', faq: 'FAQ', contact: 'Kontakt', pricing: 'Preise', blog: 'Blog' },
   langNames: { en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' },
   whatsapp: { ariaLabel: 'WhatsApp-Chat starten', title: 'WhatsApp-Chat starten' },
   telegram: { ariaLabel: 'Telegram-Chat starten', title: 'Telegram-Chat starten' },
@@ -543,6 +546,7 @@ const de: typeof en = {
     supportHeading: 'Support',
     privacyPolicy: 'Datenschutzrichtlinie',
     termsOfService: 'Nutzungsbedingungen',
+    blog: 'Blog',
     faq: 'FAQ',
     contactUs: 'Kontakt',
     copyright: '© 2026 ibo player pro. Alle Rechte vorbehalten.',
@@ -657,7 +661,7 @@ const de: typeof en = {
 
 // ─── Spanish ──────────────────────────────────────────────────────────────────
 const es: typeof en = {
-  nav: { home: 'Inicio', faq: 'FAQ', contact: 'Contacto', pricing: 'Precios' },
+  nav: { home: 'Inicio', faq: 'FAQ', contact: 'Contacto', pricing: 'Precios', blog: 'Blog' },
   langNames: { en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' },
   whatsapp: { ariaLabel: 'Chatear en WhatsApp', title: 'Chatear en WhatsApp' },
   telegram: { ariaLabel: 'Chatear en Telegram', title: 'Chatear en Telegram' },
@@ -760,6 +764,7 @@ const es: typeof en = {
     supportHeading: 'Soporte',
     privacyPolicy: 'Política de privacidad',
     termsOfService: 'Términos de servicio',
+    blog: 'Blog',
     faq: 'FAQ',
     contactUs: 'Contáctanos',
     copyright: '© 2026 ibo player pro. Todos los derechos reservados.',

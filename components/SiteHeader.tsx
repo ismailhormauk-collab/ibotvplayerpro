@@ -13,9 +13,10 @@ export default function SiteHeader() {
 
   const NAV_LINKS = [
     { label: t.nav.home,    href: "/"          },
+    { label: t.nav.pricing, href: "/#pricing"  },
+    { label: t.nav.blog,    href: "/blog"      },
     { label: t.nav.faq,     href: "/faq"       },
     { label: t.nav.contact, href: "/contact"   },
-    { label: t.nav.pricing, href: "/#pricing"  },
   ];
 
   useEffect(() => {

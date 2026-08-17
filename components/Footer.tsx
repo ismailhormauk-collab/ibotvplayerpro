@@ -51,6 +51,11 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               <li>
+                <a href="/blog" className="text-gray-500 hover:text-white text-sm transition-colors duration-200">
+                  {f.blog}
+                </a>
+              </li>
+              <li>
                 <a href="/faq" className="text-gray-500 hover:text-white text-sm transition-colors duration-200">
                   {f.faq}
                 </a>
