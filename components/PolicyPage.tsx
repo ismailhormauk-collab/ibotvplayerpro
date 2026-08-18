@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { ChevronRight } from "lucide-react";
 import PosterBackground from "@/components/PosterBackground";
 import { useLanguage } from "@/lib/i18n/context";
 
@@ -18,6 +19,11 @@ export default function PolicyPage({ pageKey }: Props) {
       {/* Hero */}
       <section className="relative z-10 pt-24 sm:pt-36 pb-10 sm:pb-14">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center gap-5">
+          <nav className="flex items-center gap-1.5 text-xs text-gray-600" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-gray-400 transition-colors">Home</Link>
+            <ChevronRight size={12} />
+            <span className="text-gray-500">{p.title}</span>
+          </nav>
           <div className="inline-flex items-center gap-2 border border-[#E50914]/60 text-[#E50914] text-[11px] font-bold px-4 py-1.5 rounded-full tracking-[0.2em] uppercase">
             <span className="w-1.5 h-1.5 rounded-full bg-[#E50914] animate-pulse" />
             {p.badge}

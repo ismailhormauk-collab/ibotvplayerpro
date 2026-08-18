@@ -8,7 +8,7 @@ import ArticleCTA from "@/components/blog/ArticleCTA";
 import RelatedArticles from "@/components/blog/RelatedArticles";
 import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/blog/posts";
 import { CATEGORY_LABELS } from "@/lib/blog/types";
-import { SITE_URL, SITE_NAME } from "@/lib/site";
+import { SITE_URL, SITE_NAME, SITE_OG_IMAGE } from "@/lib/site";
 
 export function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
@@ -27,13 +27,17 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       title: post.seoTitle,
       description: post.metaDescription,
       url,
+      siteName: SITE_NAME,
       type: "article",
       publishedTime: post.date,
+      modifiedTime: post.date,
+      images: [SITE_OG_IMAGE],
     },
     twitter: {
       card: "summary_large_image",
       title: post.seoTitle,
       description: post.metaDescription,
+      images: [SITE_OG_IMAGE.url],
     },
   };
 }

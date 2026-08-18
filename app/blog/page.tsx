@@ -2,13 +2,29 @@ import type { Metadata } from "next";
 import PosterBackground from "@/components/PosterBackground";
 import BlogIndexClient from "@/components/blog/BlogIndexClient";
 import { getAllPosts } from "@/lib/blog/posts";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, SITE_OG_IMAGE } from "@/lib/site";
+
+const title = "Blog — IPTV Guides, Encoders & Streaming Tips | ibo player pro";
+const description =
+  "Practical guides on IPTV encoders, providers, 4K streaming, and industry trends — written to help you understand and choose the right setup.";
 
 export const metadata: Metadata = {
-  title: "Blog — IPTV Guides, Encoders & Streaming Tips | ibo player pro",
-  description:
-    "Practical guides on IPTV encoders, providers, 4K streaming, and industry trends — written to help you understand and choose the right setup.",
+  title,
+  description,
   alternates: { canonical: `${SITE_URL}/blog` },
+  openGraph: {
+    title,
+    description,
+    url: `${SITE_URL}/blog`,
+    type: "website",
+    images: [SITE_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: [SITE_OG_IMAGE.url],
+  },
 };
 
 export default function BlogIndexPage() {

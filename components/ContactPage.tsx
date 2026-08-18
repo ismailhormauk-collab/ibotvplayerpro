@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import {
-  CircleAlert, CircleCheck, Zap,
+  CircleAlert, CircleCheck, Zap, ChevronRight,
   Mail, Phone, Clock, Headphones, ShieldCheck,
 } from "lucide-react";
 import PosterBackground from "@/components/PosterBackground";
@@ -103,6 +104,11 @@ export default function ContactPage() {
             style={{ background: "radial-gradient(ellipse, #E50914 0%, transparent 70%)" }}
             aria-hidden
           />
+          <nav className="flex items-center gap-1.5 text-xs text-gray-600" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-gray-400 transition-colors">Home</Link>
+            <ChevronRight size={12} />
+            <span className="text-gray-500">Contact</span>
+          </nav>
           <div className="inline-flex items-center gap-2 border border-[#E50914]/60 text-[#E50914] text-[11px] font-bold px-4 py-1.5 rounded-full tracking-[0.2em] uppercase">
             <span className="w-1.5 h-1.5 rounded-full bg-[#E50914] animate-pulse" />
             {c.badge}
